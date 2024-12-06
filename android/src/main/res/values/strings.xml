@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cai_dat">Install now</string>
+    <string name="Thoat">Quit</string>
+    <string name="DongY">Yes</string>
+    <string name="confirm_quit_mes">Do you want to quit the app?</string>
+    <string name="OK">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

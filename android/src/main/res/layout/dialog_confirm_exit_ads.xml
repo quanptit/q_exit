@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/spacing_normal">
+
+            <ImageView
+                android:id="@+id/imvIcon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/tvTitleDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_small"
+                android:layout_marginRight="6dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text="@string/confirm"
+                android:textColor="#3cb8e6"
+                android:textSize="@dimen/fontSize_large"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33b5e5"/>
+
+        <FrameLayout
+            android:id="@+id/layoutAds"
+            android:layout_marginTop="3dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"/>
+        <View
+            android:id="@+id/vDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#70444444"/>
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_normal"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="3dp"
+            android:maxLines="3"
+            android:textColor="#134A5F"
+            android:text="@string/confirm_quit_mes"
+            android:textSize="@dimen/fontSize_large"/>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_margin="@dimen/spacing_normal"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnQuit"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginRight="@dimen/spacing_tiny"-->
+<!--                android:text="@string/Thoat"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnCancel"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_marginLeft="@dimen/spacing_tiny"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/cancel"/>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>

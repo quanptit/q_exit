@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cai_dat">Cài đặt ngay</string>
+    <string name="Thoat">Thoát</string>
+    <string name="DongY">Đồng ý</string>
+    <string name="confirm_quit_mes">Bạn muốn thoát ứng dụng?</string>
+    <string name="OK">Xác nhận</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="cancel">Hủy</string>
+    <string name="yes">Đồng ý</string>
+    <string name="no">Không</string>
+</resources>
