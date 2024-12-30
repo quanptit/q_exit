@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.app.exitads'
-    compileSdkVersion 31
+    compileSdkVersion rootProject.ext.compileSdkVersion
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

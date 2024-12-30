@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:q_common_utils/languages/laguage_utils.dart';
+import 'package:q_common_utils/laguage_utils.dart';
 import 'package:q_common_utils/preferences_utils.dart';
 import 'package:q_common_utils/ui_utils.dart';
 import 'package:q_exit/q_exit.dart';
