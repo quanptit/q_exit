@@ -1,9 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:q_common_utils/laguage_utils.dart';
-import 'package:q_common_utils/preferences_utils.dart';
-import 'package:q_common_utils/ui_utils.dart';
+import 'package:q_common_utils/index.dart';
+
 import 'package:q_exit/q_exit.dart';
 import 'package:q_theme/q_theme.dart';
 
