@@ -10,7 +10,7 @@ class ConfirmQuitAppWrap extends StatelessWidget {
   final Widget child;
   final String nativeAdUnit;
 
-  const ConfirmQuitAppWrap({Key? key, required this.child, required this.nativeAdUnit}) : super(key: key);
+  const ConfirmQuitAppWrap({super.key, required this.child, required this.nativeAdUnit});
 
   @override
   Widget build(BuildContext context) {
